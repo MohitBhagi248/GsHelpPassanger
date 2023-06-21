@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1069337054926",
+    "project_id": "gshelppassanger",
+    "storage_bucket": "gshelppassanger.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069337054926:android:e6aa8124cdc9bfcc1eca9f",
+        "android_client_info": {
+          "package_name": "com.example.gshelppassanger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1069337054926-21mkfo23fr6m6g71e85bh0mnhkef91m8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbMKpmDlq1yA5NN2vMBgaQVIsKgIHzGpo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1069337054926-21mkfo23fr6m6g71e85bh0mnhkef91m8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
