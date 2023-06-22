@@ -11,7 +11,6 @@ import com.example.gshelppassanger.databinding.ActivityNearestGasStationBinding
 
 class NearestGasStation : AppCompatActivity() {
     private lateinit var binding: ActivityNearestGasStationBinding
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityNearestGasStationBinding.inflate(layoutInflater)
@@ -42,7 +41,7 @@ class NearestGasStation : AppCompatActivity() {
                     Toast.makeText(this, "Invalid postal code!", Toast.LENGTH_SHORT).show()
                 }
             } else {
-                Toast.makeText(this, "Postal code length must be of 6. characters.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Postal code length must be of 6 characters.", Toast.LENGTH_SHORT).show()
             }
         } else {
             Toast.makeText(this, "Please enter a postal code!", Toast.LENGTH_SHORT).show()

@@ -70,8 +70,6 @@ class Profile : AppCompatActivity() {
             val byteArray = outputStream.toByteArray()
             val profileImg = Base64.encodeToString(byteArray, Base64.DEFAULT)
 
-
-
             val sharedPreferences = getSharedPreferences("MyPrefs", MODE_PRIVATE)
             val editor = sharedPreferences.edit()
 
@@ -79,8 +77,6 @@ class Profile : AppCompatActivity() {
                 putString("firstName", firstName)
                 putString("lastName", lastName)
                 putString("profileImg", profileImg)
-
-
             }.apply()
             val fragmentManager = supportFragmentManager
             val fragmentTransaction = fragmentManager.beginTransaction()
