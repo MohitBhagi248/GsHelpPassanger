@@ -13,3 +13,11 @@ data class PriceModel(
     val today: String,
     val tomorrow: String
 )
+
+data class PromotionsModel(
+    val uid: String,
+    val esso: String,
+    val petroCanada: String,
+    val shell: String,
+    val husky: String
+)

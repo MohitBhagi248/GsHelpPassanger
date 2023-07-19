@@ -35,7 +35,7 @@ class NearestGasStation : AppCompatActivity() {
             if(etSearch.length==6){
                 val isValid = postalCodeValid(etSearch)
                 if (isValid) {
-                    val intent = Intent(this@NearestGasStation, Payment::class.java)
+                    val intent = Intent(this@NearestGasStation, MapsActivity::class.java)
                     startActivity(intent)
                 } else {
                     Toast.makeText(this, "Invalid postal code!", Toast.LENGTH_SHORT).show()
@@ -68,6 +68,11 @@ class NearestGasStation : AppCompatActivity() {
             }
             R.id.priceAlerts -> {
                 val intent = Intent(this@NearestGasStation, PriceAlerts::class.java)
+                startActivity(intent)
+                true
+            }
+            R.id.promotions -> {
+                val intent = Intent(this@NearestGasStation, PromotionsActivity::class.java)
                 startActivity(intent)
                 true
             }

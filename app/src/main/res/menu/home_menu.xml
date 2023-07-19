@@ -10,10 +10,10 @@
         app:actionViewClass="androidx.appcompat.widget.SearchView"/>
 
     <item android:id="@+id/profile"
-        android:title="Create Profile"/>
+        android:title="Profile"/>
 
-    <item android:id="@+id/userProfile"
-        android:title="User Profile"/>
+<!--    <item android:id="@+id/userProfile"-->
+<!--        android:title="User Profile"/>-->
 
     <item android:id="@+id/payment"
         android:title="Payment"/>
@@ -21,6 +21,9 @@
     <item android:id="@+id/priceAlerts"
         android:title="Price Alerts"/>
 
-    <item android:id="@+id/retrieveGasPrice"
-        android:title="Retrieve Price Alerts"/>
+<!--    <item android:id="@+id/retrieveGasPrice"-->
+<!--        android:title="Retrieve Price Alerts"/>-->
+
+    <item android:id="@+id/promotions"
+        android:title="Promotions"/>
 </menu>
